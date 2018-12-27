@@ -1,4 +1,36 @@
 p {
-    background-color: red;
+    background-color: yellow;
     color: blue;
+}
+
+nav{
+    height: 50px;
+}
+
+div#topnav{
+    background-color: gray;
+    color: white;
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+div#topnav ul{
+    position: relative;
+    width: 100%;
+    display: block;
+}
+
+div#topnav ul li{
+    float: left;
+    list-style: none;
+    padding: 10px;
+}
+
+div#topnav ul li:nth-child(2){
+    background-color: antiquewhite;
+}
+
+div#topnav ul li a{
+    color: aqua;
 }
