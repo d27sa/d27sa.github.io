@@ -15,20 +15,32 @@ body{
 }
 
 nav{
+    width: 96%;
     padding: 0%;
     margin-left: 0%;
     margin-right: 0%;
+    display:table;
 }
 
-#top-nav-menu{
+nav ul{
     padding: 0%;
     margin-left: 0%;
     margin-right: 0%;
+    display: table-row;
 }
 
-#top-nav-menu li{
-    display: inline-block;
-    padding-right: 2%;
-    
+
+nav ul li{
+    display: table-cell;
+    text-align: center;
+    padding: 0%;
+}
+
+nav ul li:last-child{
+    text-align: right;
+}
+
+nav ul li:first-child{
+    text-align: left;
 }
 
