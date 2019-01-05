@@ -10,12 +10,13 @@ body{
 
 #wrapper{
     width:96%;
+    padding: 0%;
     margin-left: auto;
     margin-right: auto;
 }
 
 nav{
-    width: 96%;
+    width: 100%;
     padding: 0%;
     margin-left: 0%;
     margin-right: 0%;
